@@ -1,0 +1,77 @@
+
+body {
+  background: linear-gradient(to bottom right, #4a90e2, #b39ddb);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 40px;
+}
+
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 0 auto 20px;
+}
+
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* Tombol */
+button {
+  background-color: #0d47a1;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1976d2;
+}
+
+
+#errorMessage {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+  margin-bottom: 10px;
+}
+
+  
+#daftar {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#daftar li {
+  color: #333;
+  background: #e3f2fd;
+  padding: 8px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+
+.invalid {
+  border-color: red !important;
+}
+
+.valid {
+  border-color: green !important;
+}
